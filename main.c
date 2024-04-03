@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include "math_lib.h"
 
-void main() {
-    /* delete line #5 and write your code in this function */
-    printf("Hello, World!\n");
+int main() {
+    execute_operation(ADD,10,2);
+    execute_operation(DIV,10,2);
 }
