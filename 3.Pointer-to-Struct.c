@@ -15,5 +15,8 @@ void main() {
     (*p_var).b=200.0;
     p_var->c='P';
     printf("No Error ==> 'struct main' and 'main()' \n");
+    
+    /* ---------- Pointer Arithmetic ----------- */
+    p_var=p_var - 5; // p_var - 5*sizeof( datatype)
 
 }
